@@ -1,16 +1,31 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: sfmono;
+    src: url("/FontsFree-Net-SFMono-Regular.ttf");
+    font-display: block;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer components {
+    .mask {
+        /* position: absolute; */
+        /* width: 100%; */
+        -webkit-mask-image: url("/Pepe-Town.png");
+        mask-image: url("/Pepe-Town.png");
+        mask-position: center;
+        -webkit-mask-size: 70%;
+        mask-size: 70%;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+    }
 
-* {
-  box-sizing: border-box;
+    .btn {
+        border: 1px solid #fff;
+        box-shadow: 3px 3px 0 0px rgb(255 255 255);
+        padding: 1px 8px;
+        background-color: black;
+        color: white;
+    }
 }

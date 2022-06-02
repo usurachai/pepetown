@@ -1,20 +1,31 @@
 {
-  "name": "oriandfriends",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
-  },
-  "devDependencies": {
-    "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
-  }
+    "name": "pepe",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.6.3",
+        "axios": "^0.27.2",
+        "ethers": "^5.6.8",
+        "metamask-react": "^2.3.0",
+        "moment": "^2.29.3",
+        "next": "12.1.6",
+        "react": "18.1.0",
+        "react-dom": "18.1.0",
+        "react-image-follow": "^1.2.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "eslint": "8.16.0",
+        "eslint-config-next": "12.1.6",
+        "postcss": "^8.4.14",
+        "prettier": "^2.5.1",
+        "prettier-plugin-tailwindcss": "^0.1.1",
+        "tailwindcss": "^3.0.24"
+    }
 }
