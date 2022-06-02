@@ -459,9 +459,11 @@ export default function Home() {
 
                 {/* info */}
                 <div className="text-center  text-white ">
-                    <h1 className="text-center text-xl">Update info</h1>
+                    <h1 className="text-md text-center sm:text-xl">
+                        Update info
+                    </h1>
                     <br />
-                    <p>
+                    <p className="sm:text-md text-sm">
                         <span>
                             <b>{name}</b>
                         </span>{" "}
@@ -477,7 +479,7 @@ export default function Home() {
                     </p>
                     <br />
                     <div className="mx-auto sm:w-[500px]">
-                        <table className="w-full text-xs sm:text-sm">
+                        <table className="w-full text-xss sm:text-sm">
                             <tbody>
                                 <tr>
                                     <td className="text-left">
@@ -533,7 +535,9 @@ export default function Home() {
                     </div>
                     <br />
                     <br />
-                    <h1 className="text-center text-xl ">Delay Halving info</h1>
+                    <h1 className="text-md text-center sm:text-xl ">
+                        Delay Halving info
+                    </h1>
                     <br />
                     <Image
                         src="/Halving.png"
@@ -543,13 +547,15 @@ export default function Home() {
                     />
                     <br />
                     <br />
-                    <h1 className="text-center text-xl">Claim your prize</h1>
-                    <p className="text-sm">
+                    <h1 className="text-md text-center sm:text-xl">
+                        Claim your prize
+                    </h1>
+                    <p className="text-xs sm:text-sm">
                         Your prize can calim after the game ended
                     </p>
                     <br />
                     <br />
-                    <p className="text-sm">
+                    <p className="text-xs sm:text-sm">
                         Contract address :{" "}
                         <b>{process.env.NEXT_PUBLIC_CONTRACT}</b>
                     </p>
